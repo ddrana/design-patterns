@@ -16,7 +16,7 @@
 
 <h1>Student Record</h1>
 <div>ID: <%= student.getId()%></div>
-<div>Name: <%= student.getFirstName()%></div>
+<div>Name: <%= student.getLastName() +", " + student.getFirstName()%></div>
 <%
 	}
 %>
